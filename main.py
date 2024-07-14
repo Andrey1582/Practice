@@ -10,7 +10,7 @@ nMax=0
 for i in range(1,n):
     if a[i]>a[nMax]:
         nMax=i
-print("Maximum A[", nMax, "]=",a[nMax])
+print("Максимум A[", nMax, "]=",a[nMax])
 for x in a:
     if x<M:
         M=x
@@ -19,5 +19,5 @@ for i in range(1,n):
     if a[i]<a[nMin]:
         nMin=i
 
-print("Minimum A[", nMin, "]=",a[nMin])
+print("Минимум A[", nMin, "]=",a[nMin])
 
